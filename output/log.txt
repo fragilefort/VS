@@ -1,0 +1,150 @@
+
+[STARTRUN] 2024-08-14 02:13:07.826092 LIGAND Afimoxifene.pdbqt
+[STARTLOG]
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Scoring function : vina
+Rigid receptor: C:\Users\Imad\Desktop\virtual screening\Inputs\receptor\2IOK_final.pdbqt
+Ligand: Afimoxifene.pdbqt
+Grid center: X 12.061 Y 35.312 Z 44.385
+Grid size  : X 20 Y 20 Z 20
+Grid space : 0.869
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: -1778377790) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -6.372          0          0
+   2       -5.398      1.465      2.176
+   3       -4.779      3.903      7.009
+   4       -4.417      3.797      7.364
+   5       -4.298      4.055      7.246
+
+[ENDLOG]
+[ENDRUN] 2024-08-14 02:13:44.576135
+++++++++++
+
+[STARTRUN] 2024-08-14 02:13:44.577140 LIGAND Ciprofloxacin.pdbqt
+[STARTLOG]
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Scoring function : vina
+Rigid receptor: C:\Users\Imad\Desktop\virtual screening\Inputs\receptor\2IOK_final.pdbqt
+Ligand: Ciprofloxacin.pdbqt
+Grid center: X 12.061 Y 35.312 Z 44.385
+Grid size  : X 20 Y 20 Z 20
+Grid space : 0.869
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: -1777765823) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1        -8.19          0          0
+   2       -7.526      3.758      7.299
+   3       -7.352      3.351      6.585
+   4       -7.074      12.62      16.02
+   5       -6.896      13.56       16.7
+
+[ENDLOG]
+[ENDRUN] 2024-08-14 02:14:02.253470
+++++++++++
+
+[STARTRUN] 2024-08-14 02:14:02.254470 LIGAND Tamoxifen.pdbqt
+[STARTLOG]
+AutoDock Vina v1.2.5
+#################################################################
+# If you used AutoDock Vina in your work, please cite:          #
+#                                                               #
+# J. Eberhardt, D. Santos-Martins, A. F. Tillack, and S. Forli  #
+# AutoDock Vina 1.2.0: New Docking Methods, Expanded Force      #
+# Field, and Python Bindings, J. Chem. Inf. Model. (2021)       #
+# DOI 10.1021/acs.jcim.1c00203                                  #
+#                                                               #
+# O. Trott, A. J. Olson,                                        #
+# AutoDock Vina: improving the speed and accuracy of docking    #
+# with a new scoring function, efficient optimization and       #
+# multithreading, J. Comp. Chem. (2010)                         #
+# DOI 10.1002/jcc.21334                                         #
+#                                                               #
+# Please see https://github.com/ccsb-scripps/AutoDock-Vina for  #
+# more information.                                             #
+#################################################################
+
+Scoring function : vina
+Rigid receptor: C:\Users\Imad\Desktop\virtual screening\Inputs\receptor\2IOK_final.pdbqt
+Ligand: Tamoxifen.pdbqt
+Grid center: X 12.061 Y 35.312 Z 44.385
+Grid size  : X 20 Y 20 Z 20
+Grid space : 0.869
+Exhaustiveness: 8
+CPU: 0
+Verbosity: 1
+
+Computing Vina grid ... done.
+Performing docking (random seed: 2101153792) ... 
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+mode |   affinity | dist from best mode
+     | (kcal/mol) | rmsd l.b.| rmsd u.b.
+-----+------------+----------+----------
+   1       -6.142          0          0
+   2       -6.092      2.364        5.4
+   3        -5.83      1.372      4.955
+   4       -5.215      2.437      5.249
+   5       -4.888      2.049      2.775
+
+[ENDLOG]
+[ENDRUN] 2024-08-14 02:14:39.448840
+++++++++++

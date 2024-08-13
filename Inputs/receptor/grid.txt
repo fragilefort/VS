@@ -1,0 +1,4 @@
+2IOK_final
+spacing    0.869
+npts       20 20 20
+center    12.061 35.312 44.385

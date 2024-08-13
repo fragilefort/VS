@@ -1,0 +1,265 @@
+MODEL 1
+REMARK VINA RESULT:    -8.190      0.000      0.000
+REMARK INTER + INTRA:          -9.316
+REMARK INTER:                  -9.865
+REMARK INTRA:                   0.550
+REMARK UNBOUND:                 0.550
+REMARK  Name = Ciprofloxacin
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_4
+REMARK    2  A    between atoms: C_6  and  C_22
+REMARK    3  A    between atoms: C_12  and  N_15
+REMARK    4  A    between atoms: C_22  and  O_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      15.180  35.903  51.685  0.00  0.00    +0.000 N 
+ATOM      2  C   UNL     1      14.144  36.130  50.820  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      14.284  35.945  49.436  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      15.537  35.551  48.935  0.00  0.00    +0.000 A 
+ATOM      5  O   UNL     1      15.693  35.356  47.697  0.00  0.00    +0.000 OA
+ATOM      6  C   UNL     1      16.624  35.385  49.812  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      17.896  35.028  49.326  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      18.980  34.900  50.193  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      18.819  35.140  51.562  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      17.555  35.486  52.059  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      16.435  35.593  51.202  0.00  0.00    +0.000 A 
+ATOM     12  F   UNL     1      20.184  34.519  49.696  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   9  13
+ATOM     13  N   UNL     1      19.939  35.030  52.458  0.00  0.00    +0.000 N 
+ATOM     14  C   UNL     1      20.047  33.848  53.322  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      21.344  33.888  54.138  0.00  0.00    +0.000 C 
+ATOM     16  N   UNL     1      21.554  35.232  54.689  0.00  0.00    +0.000 NA
+ATOM     17  C   UNL     1      21.753  36.253  53.641  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1      21.100  35.911  52.285  0.00  0.00    +0.000 C 
+ATOM     19  H   UNL     1      20.715  35.491  55.260  0.00  0.00    +0.000 HD
+ENDBRANCH   9  13
+BRANCH   1  22
+ATOM     20  C   UNL     1      14.278  34.919  53.842  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      15.756  35.189  54.030  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      14.931  36.101  53.126  0.00  0.00    +0.000 C 
+ENDBRANCH   1  22
+BRANCH   3  23
+ATOM     23  C   UNL     1      13.113  36.171  48.543  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      11.941  36.091  49.001  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      13.289  36.474  47.196  0.00  0.00    +0.000 OA
+ATOM     26  H   UNL     1      12.821  35.936  46.476  0.00  0.00    +0.000 HD
+ENDBRANCH  23  25
+ENDBRANCH   3  23
+TORSDOF 4
+ENDMDL
+MODEL 2
+REMARK VINA RESULT:    -7.526      3.758      7.299
+REMARK INTER + INTRA:          -8.516
+REMARK INTER:                  -8.488
+REMARK INTRA:                  -0.028
+REMARK UNBOUND:                 0.550
+REMARK  Name = Ciprofloxacin
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_4
+REMARK    2  A    between atoms: C_6  and  C_22
+REMARK    3  A    between atoms: C_12  and  N_15
+REMARK    4  A    between atoms: C_22  and  O_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      19.686  36.171  50.884  0.00  0.00    +0.000 N 
+ATOM      2  C   UNL     1      20.627  36.023  51.866  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      20.375  35.266  53.021  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      19.106  34.681  53.176  0.00  0.00    +0.000 A 
+ATOM      5  O   UNL     1      18.852  33.976  54.193  0.00  0.00    +0.000 OA
+ATOM      6  C   UNL     1      18.112  34.889  52.203  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      16.824  34.343  52.358  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      15.831  34.582  51.410  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      16.098  35.383  50.294  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      17.381  35.923  50.124  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      18.413  35.670  51.057  0.00  0.00    +0.000 A 
+ATOM     12  F   UNL     1      14.610  34.010  51.572  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   9  13
+ATOM     13  N   UNL     1      15.071  35.649  49.323  0.00  0.00    +0.000 N 
+ATOM     14  C   UNL     1      15.385  35.510  47.896  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      14.140  35.761  47.039  0.00  0.00    +0.000 C 
+ATOM     16  N   UNL     1      13.418  36.941  47.528  0.00  0.00    +0.000 NA
+ATOM     17  C   UNL     1      12.887  36.759  48.894  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1      13.671  35.743  49.753  0.00  0.00    +0.000 C 
+ATOM     19  H   UNL     1      14.075  37.757  47.526  0.00  0.00    +0.000 HD
+ENDBRANCH   9  13
+BRANCH   1  22
+ATOM     20  C   UNL     1      19.788  38.467  49.809  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      21.203  37.939  49.928  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      20.051  36.965  49.695  0.00  0.00    +0.000 C 
+ENDBRANCH   1  22
+BRANCH   3  23
+ATOM     23  C   UNL     1      21.447  35.106  54.043  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      22.186  36.082  54.346  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      21.653  33.885  54.679  0.00  0.00    +0.000 OA
+ATOM     26  H   UNL     1      22.183  33.147  54.231  0.00  0.00    +0.000 HD
+ENDBRANCH  23  25
+ENDBRANCH   3  23
+TORSDOF 4
+ENDMDL
+MODEL 3
+REMARK VINA RESULT:    -7.352      3.351      6.585
+REMARK INTER + INTRA:          -8.306
+REMARK INTER:                  -9.189
+REMARK INTRA:                   0.883
+REMARK UNBOUND:                 0.550
+REMARK  Name = Ciprofloxacin
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_4
+REMARK    2  A    between atoms: C_6  and  C_22
+REMARK    3  A    between atoms: C_12  and  N_15
+REMARK    4  A    between atoms: C_22  and  O_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1      17.157  35.585  53.132  0.00  0.00    +0.000 N 
+ATOM      2  C   UNL     1      18.249  35.283  53.899  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1      19.494  34.983  53.324  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1      19.598  34.961  51.922  0.00  0.00    +0.000 A 
+ATOM      5  O   UNL     1      20.707  34.716  51.371  0.00  0.00    +0.000 OA
+ATOM      6  C   UNL     1      18.461  35.201  51.129  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1      18.535  35.146  49.725  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1      17.399  35.347  48.943  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1      16.161  35.595  49.548  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1      16.078  35.663  50.946  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1      17.223  35.491  51.758  0.00  0.00    +0.000 A 
+ATOM     12  F   UNL     1      17.513  35.323  47.591  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   9  13
+ATOM     13  N   UNL     1      14.982  35.784  48.746  0.00  0.00    +0.000 N 
+ATOM     14  C   UNL     1      15.132  36.113  47.324  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1      13.764  36.195  46.638  0.00  0.00    +0.000 C 
+ATOM     16  N   UNL     1      12.820  36.942  47.478  0.00  0.00    +0.000 NA
+ATOM     17  C   UNL     1      12.543  36.267  48.762  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1      13.678  35.345  49.256  0.00  0.00    +0.000 C 
+ATOM     19  H   UNL     1      13.226  37.887  47.673  0.00  0.00    +0.000 HD
+ENDBRANCH   9  13
+BRANCH   1  22
+ATOM     20  C   UNL     1      14.714  35.004  53.492  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1      15.436  34.842  54.813  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1      15.897  35.912  53.828  0.00  0.00    +0.000 C 
+ENDBRANCH   1  22
+BRANCH   3  23
+ATOM     23  C   UNL     1      20.661  34.698  54.205  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1      20.772  33.575  54.768  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      21.644  35.659  54.423  0.00  0.00    +0.000 OA
+ATOM     26  H   UNL     1      22.227  35.989  53.664  0.00  0.00    +0.000 HD
+ENDBRANCH  23  25
+ENDBRANCH   3  23
+TORSDOF 4
+ENDMDL
+MODEL 4
+REMARK VINA RESULT:    -7.074     12.624     16.021
+REMARK INTER + INTRA:          -7.972
+REMARK INTER:                  -7.900
+REMARK INTRA:                  -0.072
+REMARK UNBOUND:                 0.550
+REMARK  Name = Ciprofloxacin
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_4
+REMARK    2  A    between atoms: C_6  and  C_22
+REMARK    3  A    between atoms: C_12  and  N_15
+REMARK    4  A    between atoms: C_22  and  O_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1       7.805  35.637  41.508  0.00  0.00    +0.000 N 
+ATOM      2  C   UNL     1       8.268  34.679  42.369  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       9.057  33.606  41.924  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1       9.340  33.507  40.551  0.00  0.00    +0.000 A 
+ATOM      5  O   UNL     1      10.064  32.566  40.119  0.00  0.00    +0.000 OA
+ATOM      6  C   UNL     1       8.807  34.449  39.653  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       9.048  34.345  38.270  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1       8.488  35.258  37.379  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1       7.664  36.288  37.849  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1       7.427  36.408  39.225  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1       8.008  35.510  40.150  0.00  0.00    +0.000 A 
+ATOM     12  F   UNL     1       8.770  35.150  36.056  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   9  13
+ATOM     13  N   UNL     1       7.068  37.221  36.931  0.00  0.00    +0.000 N 
+ATOM     14  C   UNL     1       5.625  37.147  36.676  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1       5.180  38.272  35.735  0.00  0.00    +0.000 C 
+ATOM     16  N   UNL     1       6.126  38.403  34.620  0.00  0.00    +0.000 NA
+ATOM     17  C   UNL     1       7.474  38.811  35.062  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1       7.818  38.411  36.513  0.00  0.00    +0.000 C 
+ATOM     19  H   UNL     1       6.194  37.479  34.133  0.00  0.00    +0.000 HD
+ENDBRANCH   9  13
+BRANCH   1  22
+ATOM     20  C   UNL     1       7.132  36.931  43.584  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1       7.836  37.885  42.642  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1       7.003  36.740  42.073  0.00  0.00    +0.000 C 
+ENDBRANCH   1  22
+BRANCH   3  23
+ATOM     23  C   UNL     1       9.566  32.612  42.909  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1       8.761  31.880  43.547  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1      10.931  32.470  43.142  0.00  0.00    +0.000 OA
+ATOM     26  H   UNL     1      11.275  31.853  43.868  0.00  0.00    +0.000 HD
+ENDBRANCH  23  25
+ENDBRANCH   3  23
+TORSDOF 4
+ENDMDL
+MODEL 5
+REMARK VINA RESULT:    -6.896     13.557     16.700
+REMARK INTER + INTRA:          -7.757
+REMARK INTER:                  -7.256
+REMARK INTRA:                  -0.501
+REMARK UNBOUND:                 0.550
+REMARK  Name = Ciprofloxacin
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_3  and  N_4
+REMARK    2  A    between atoms: C_6  and  C_22
+REMARK    3  A    between atoms: C_12  and  N_15
+REMARK    4  A    between atoms: C_22  and  O_24
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  N   UNL     1       6.828  37.000  36.248  0.00  0.00    +0.000 N 
+ATOM      2  C   UNL     1       6.811  38.052  35.372  0.00  0.00    +0.000 A 
+ATOM      3  C   UNL     1       7.702  39.129  35.495  0.00  0.00    +0.000 A 
+ATOM      4  C   UNL     1       8.606  39.132  36.572  0.00  0.00    +0.000 A 
+ATOM      5  O   UNL     1       9.437  40.075  36.702  0.00  0.00    +0.000 OA
+ATOM      6  C   UNL     1       8.580  38.088  37.515  0.00  0.00    +0.000 A 
+ATOM      7  C   UNL     1       9.451  38.092  38.620  0.00  0.00    +0.000 A 
+ATOM      8  C   UNL     1       9.398  37.076  39.573  0.00  0.00    +0.000 A 
+ATOM      9  C   UNL     1       8.463  36.041  39.449  0.00  0.00    +0.000 A 
+ATOM     10  C   UNL     1       7.598  36.022  38.346  0.00  0.00    +0.000 A 
+ATOM     11  C   UNL     1       7.654  37.027  37.352  0.00  0.00    +0.000 A 
+ATOM     12  F   UNL     1      10.276  37.091  40.607  0.00  0.00    +0.000 F 
+ENDROOT
+BRANCH   9  13
+ATOM     13  N   UNL     1       8.390  35.001  40.439  0.00  0.00    +0.000 N 
+ATOM     14  C   UNL     1       7.678  35.262  41.696  0.00  0.00    +0.000 C 
+ATOM     15  C   UNL     1       7.650  34.007  42.575  0.00  0.00    +0.000 C 
+ATOM     16  N   UNL     1       8.972  33.369  42.589  0.00  0.00    +0.000 NA
+ATOM     17  C   UNL     1       9.379  32.872  41.260  0.00  0.00    +0.000 C 
+ATOM     18  C   UNL     1       8.737  33.623  40.074  0.00  0.00    +0.000 C 
+ATOM     19  H   UNL     1       9.675  34.072  42.919  0.00  0.00    +0.000 HD
+ENDBRANCH   9  13
+BRANCH   1  22
+ATOM     20  C   UNL     1       4.413  36.231  36.353  0.00  0.00    +0.000 C 
+ATOM     21  C   UNL     1       4.863  36.174  34.908  0.00  0.00    +0.000 C 
+ATOM     22  C   UNL     1       5.869  35.902  36.023  0.00  0.00    +0.000 C 
+ENDBRANCH   1  22
+BRANCH   3  23
+ATOM     23  C   UNL     1       7.666  40.231  34.493  0.00  0.00    +0.000 C 
+ATOM     24  O   UNL     1       6.562  40.701  34.106  0.00  0.00    +0.000 OA
+BRANCH  23  25
+ATOM     25  O   UNL     1       8.842  40.760  33.970  0.00  0.00    +0.000 OA
+ATOM     26  H   UNL     1       8.958  41.760  33.857  0.00  0.00    +0.000 HD
+ENDBRANCH  23  25
+ENDBRANCH   3  23
+TORSDOF 4
+ENDMDL

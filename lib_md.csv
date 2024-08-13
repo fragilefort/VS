@@ -1,0 +1,4 @@
+LIG_no.,ID,SMILES,logP,molecular_wt_calculated,havy_atom_count,hydrogen_acceptors,hydrogen_donors,rotatable_bonds,amide_bonds,ring_count
+0,Tamoxifen,CCC(=C(C1=CC=CC=C1)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3,5.996100000000006,371.5239999999996,28,2,0,11,0,3
+1,Afimoxifene,CCC(=C(C1=CC=C(C=C1)O)C2=CC=C(C=C2)OCCN(C)C)C3=CC=CC=C3,5.701700000000006,387.52299999999957,29,3,1,12,0,3
+2,Ciprofloxacin,C1CC1N2C=C(C(=O)C3=CC(=C(C=C32)N4CCNCC4)F)C(=O)O,1.5833,331.3469999999997,24,6,2,3,0,4

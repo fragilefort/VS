@@ -1,0 +1,16 @@
+receptor= 2IOK_final.pdbqt
+spacing = 0.869
+center_x = 12.061 
+center_y = 35.312 
+center_z = 44.385 
+
+size_x = 20 
+size_y = 20 
+size_z = 20 
+
+
+
+
+exhaustiveness = 8
+num_modes = 5
+ 
