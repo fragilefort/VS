@@ -1,5 +1,5 @@
 
-# Automated Molecular Docking Workflow
+# Automated Virtual screening Workflow
 
 ## Overview
 
@@ -11,7 +11,12 @@ This workflow automates the molecular docking process using AutoDock Vina. It is
    - Install AutoDock Vina if not already installed.
    - Ensure all dependencies (e.g., Python, necessary libraries) are installed.
    - Organize the input files and directories.
-
+2. **Preparing ligands**
+   - **Converting the smiles** 
+   - **Calculating discriptors**
+   - **Generating 3d SDF library**
+   - **Format conversion to pdbqt using openbabel**
+     
 2. **Define Input Parameters**
    - **Receptor File:** Path to the receptor `.pdbqt` file.
    - **Configuration File:** Path to the configuration `.txt` file for AutoDock Vina.
@@ -26,11 +31,10 @@ This workflow automates the molecular docking process using AutoDock Vina. It is
    - **Output Files:** Each ligand's docking result is saved as a `.pdbqt` file in the output directory.
    - **Log Files:** A comprehensive log file (`log.txt`) is generated, documenting the docking process for each ligand.
 
-## Script Details
-
-### `run_docking()` Function
-
-This function handles the docking process for a single ligand. It logs the start and end times, handles any errors, and ensures that the ligand names are correctly formatted in the log file.
+**Notable features**
+- It can iterate for each ligand in a certain file
+- It also iterates for each pose and save it with the protein as a pdb complex
+- It handles the log file nicely and ouputs a csv files ready to be analyzed
 
 ### Key Variables
 
@@ -40,52 +44,10 @@ This function handles the docking process for a single ligand. It logs the start
 - **config:** Path to the configuration file.
 - **output_dir:** Directory where the result files are saved.
 
-### Log Formatting
 
-The script ensures that each ligand is referenced by its name only, without the full file path, in the generated log file.
-
-### Example Directory Structure
-
-```plaintext
-├── Inputs
-│   ├── receptor
-│   │   └── 2IOK_final.pdbqt
-│   ├── ligands
-│   │   └── pdbqt
-│   │       ├── Ligand1.pdbqt
-│   │       ├── Ligand2.pdbqt
-│   │       └── ...
-│   └── receptor
-│       └── conf.txt
-├── output
-│   ├── Ligand1_results.pdbqt
-│   ├── Ligand2_results.pdbqt
-│   └── log.txt
-└── run_docking.py
-```
-
-## Usage Instructions
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/YourUsername/YourRepoName.git
-   cd YourRepoName
-   ```
-
-2. **Set Up the Environment:**
-   Ensure AutoDock Vina and Python are installed, and all necessary files are placed in the correct directories.
-
-3. **Run the Script:**
-   ```bash
-   python run_docking.py
-   ```
-
-4. **Check the Output:**
-   Review the docking results and the `log.txt` file in the `output` directory.
 
 ## Future Improvements
 
-- **Error Handling Enhancements:** Improve the script's error-handling capabilities to manage more edge cases.
 - **Parallel Processing:** Implement parallel processing to speed up the docking process for large datasets.
 - **Visualization Tools:** Integrate tools to visualize docking results directly from the output files.
 
