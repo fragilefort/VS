@@ -31,7 +31,7 @@ This workflow automates the molecular docking process using AutoDock Vina. It is
    - **Output Files:** Each ligand's docking result is saved as a `.pdbqt` file in the output directory.
    - **Log Files:** A comprehensive log file (`log.txt`) is generated, documenting the docking process for each ligand.
 
-**Notable features**
+### Notable features
 - It can iterate for each ligand in a certain file
 - It also iterates for each pose and save it with the protein as a pdb complex
 - It handles the log file nicely and ouputs a csv files ready to be analyzed
